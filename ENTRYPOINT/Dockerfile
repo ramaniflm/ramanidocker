@@ -1,3 +1,3 @@
-FROM ubuntu
-RUN  apt install maven -y 
-ENTRYPOINT ["apt","install","tree","-y"]
+FROM centos:centos7
+RUN  yum install maven -y 
+ENTRYPOINT ["yum","install","tree","-y"]
