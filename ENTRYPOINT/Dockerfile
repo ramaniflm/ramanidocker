@@ -1,3 +1,3 @@
 FROM centos:centos7
-RUN  yum install maven -y 
-ENTRYPOINT ["yum","install","tree","-y"]
+CMD ["maven"]
+ENTRYPOINT ["yum","install","-y"]
