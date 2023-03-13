@@ -1,0 +1,5 @@
+FROM almalinux
+LABEL SUBJECT="DOCKER"\
+      PROJECT="NO PROJECT"\
+      PORT="8000"
+      
