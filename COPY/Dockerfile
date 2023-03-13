@@ -1,5 +1,6 @@
-FROM centos:centos7
+FROM almalinux
 RUN yum install nginx -y
 RUN rm -rf /usr/share/nginx/html/index.html
 COPY teju.html /usr/share/nginx/html/
+CMD ["nginx","-g","daemon off;"]
 
