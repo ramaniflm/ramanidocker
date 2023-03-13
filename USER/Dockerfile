@@ -1,2 +1,4 @@
 FROM almalinux
-RUN touch bye.txt
+RUN adduser ramani
+USER ramani
+RUN touch woord.txt
