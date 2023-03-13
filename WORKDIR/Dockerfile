@@ -1,3 +1,3 @@
 FROM almalinux
-RUN cd /tmp
-RUN touch tejooo
+WORKDIR  /ram
+RUN touch bheem
