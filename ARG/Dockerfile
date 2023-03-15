@@ -3,3 +3,4 @@ FROM almalinux:${VERSION:-8}
 ARG GREETING=WOWWWW
 RUN echo "{GREETING}"
 RUN echo "{VERSION}"
+RUN echo "{GREETING}"
